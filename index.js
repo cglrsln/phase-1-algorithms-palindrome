@@ -7,6 +7,10 @@ function isPalindrome(word) {
   }
 }
 
+
+//alternative way to do it. shorter.
+//function isPalindrome (word) { return word.toLowerCase() === word.toLowerCase().split('').reverse().join('') }
+
 /* 
   once the word passed in, it will be splitted into letters. Then, it will be reversed
   and will be joined back as a string. 
