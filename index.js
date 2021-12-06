@@ -1,13 +1,20 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  if (word.toLowerCase() === word.toLowerCase().split('').reverse().join('')){
+    return true;
+  }else{
+    return false;
+  }
 }
 
 /* 
-  Add your pseudocode here
+  once the word passed in, it will be splitted into letters. Then, it will be reversed
+  and will be joined back as a string. 
 */
 
 /*
-  Add written explanation of your solution here
+  if the passed word and splitted/reversed/joined word are the same, the function
+  will return true, otherwise false. 
 */
 
 // You can run `node index.js` to view these console logs
